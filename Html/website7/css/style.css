@@ -32,6 +32,9 @@ a{
     margin-left: 67%;
 
 }
+a:hover{
+    color: aqua;
+}
 ::placeholder{
     font-style: italic;
 }
@@ -60,4 +63,5 @@ a{
     width: fit-content;
     padding: 20px;
     margin-left: 48%;
+    box-shadow: -10px 10px aqua;
 }
