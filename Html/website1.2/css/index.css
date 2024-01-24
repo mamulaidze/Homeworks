@@ -9,9 +9,9 @@ header {
 }
 
 header img {
+    margin: 10px;
     width: 100px;
     border-radius: 50%;
-
 }
 
 header nav a {
@@ -26,4 +26,10 @@ header nav {
     display: flex;
     width:100%;   
     text-align: center;
+}
+a:hover{
+    color: rgb(68, 68, 252);
+}
+a:active{
+    color: blue;
 }
