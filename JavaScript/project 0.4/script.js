@@ -46,3 +46,5 @@ const testTwo ={
 }
 console.log(testOne.name == testTwo.name)
 console.log(testOne.age == testTwo.age)
+
+console.log(testOne == testTwo)
