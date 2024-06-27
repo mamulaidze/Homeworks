@@ -25,8 +25,14 @@ for (let i = 0; i < names.length; i++) {
 console.log(saxeli,"meordeba",saxelebisJami+"-jer")
 
     //4
-const cifrebi = new Array(1,2,3,4,5,6,7,8,9,10)
-let oddOrEven
-for(i=0;i<cifrebi.length; i++){
-    for
+const cifrebi = new Array(1,2,3,4,5,6,7,8,9,10);
+
+for(let i = 0; i < cifrebi.length; i++){
+    let oddOrEven = cifrebi[i];
+    if (oddOrEven % 2 == 0){
+        console.log("this num is even ", oddOrEven);
+    }
+    else{
+        console.log("this num is odd ", oddOrEven)
+    }
 }
